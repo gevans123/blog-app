@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 django = "==4.0"
+psycopg2 = "*"
+gunicorn = "==20.1.0"
+whitenoise = "==5.3"
 
 [dev-packages]
 
